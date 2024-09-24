@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.projectTitle {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.introduction {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 10vh;
+}
