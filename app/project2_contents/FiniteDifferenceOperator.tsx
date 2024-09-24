@@ -35,7 +35,7 @@ export default function FiniteDifferenceOperator() {
       </p>
       <div className={styles.imageWrapper}>
         <div>
-          <p className={styles.text}>X Derivative: </p>
+          <p className={styles.imageText}>X Derivative: </p>
           <Image
             src="/images/CameraMan x derivative.jpg"
             width={500}
@@ -45,7 +45,7 @@ export default function FiniteDifferenceOperator() {
           />
         </div>
         <div>
-          <p className={styles.text}>Y Derivative: </p>
+          <p className={styles.imageText}>Y Derivative: </p>
           <Image
             src="/images/CameraMan y derivative.jpg"
             width={500}
@@ -57,7 +57,7 @@ export default function FiniteDifferenceOperator() {
       </div>
       <div className={styles.imageWrapper}>
         <div>
-          <p className={styles.text}>Gradient Magnitude: </p>
+          <p className={styles.imageText}>Gradient Magnitude: </p>
           <Image
             src="/images/CameraMan gradient magnitude.jpg"
             width={500}
@@ -67,7 +67,7 @@ export default function FiniteDifferenceOperator() {
           />
         </div>
         <div>
-          <p className={styles.text}>Edge Image (threshold: 0.34): </p>
+          <p className={styles.imageText}>Edge Image (threshold: 0.34): </p>
           <Image
             src="/images/CameraMan edge image.jpg"
             width={500}
@@ -76,6 +76,33 @@ export default function FiniteDifferenceOperator() {
             className={styles.CameraMan}
           />
         </div>
+      </div>
+      <p className={styles.sectionTitle}>
+        Summary and Notes (Asnswers to Questions):
+      </p>
+      <div className={styles.summary}>
+        <ul className={styles.text}>
+          <li>
+            When we want to calculate the gradient magnitude, the only thing we
+            need to do is to square every elements in x derivative and y
+            derivative, add them (two 2D matrix) together, and take the square
+            root. Which is similar like how you take the magnitude of a vector.
+          </li>
+          <li>
+            You may need multiple tries to get the threshold for binarize. The
+            general idea is that if a certain pixel value is greater than the
+            threshold , then set it as the color white (1.0 or 255).
+          </li>
+          <li>
+            There may be some negative pixel value after the convolution, so we
+            need to deal with that. I simply just set it to color black (0) if
+            it is negative.
+          </li>
+          <li>
+            There is a liitle border in the original Cameraman image, so we can
+            crop it to avoid the result getting influenced by the border
+          </li>
+        </ul>
       </div>
     </div>
   );
