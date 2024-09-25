@@ -6,11 +6,11 @@ export default function HybridImage() {
     <div className={styles.wrapper} id="hybrid-image">
       <h2 className={styles.title}>2.2 Hybrid Image</h2>
       <p className={styles.text}>
-        The eyes of human can't see high frequency signal from far away. Which
-        means we can combine the high frequncy signal of a picture and add it to
-        the low frequency signal of another picture to create an image where it
-        looks differently from close and far. We call such an image as Hybrid
-        Image. Here is my process:
+        The eyes of human can&apos;t see high frequency signal from far away.
+        Which means we can combine the high frequncy signal of a picture and add
+        it to the low frequency signal of another picture to create an image
+        where it looks differently from close and far. We call such an image as
+        Hybrid Image. Here is my process:
       </p>
       <div className={styles.imageWrapper}>
         <div>

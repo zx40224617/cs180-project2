@@ -38,6 +38,10 @@ const Sidebar = () => {
               text: "2.2 Hybrid Image",
               href: "#hybrid-image",
             },
+            {
+              text: "2.3 Gaussian and Laplacian Stack",
+              href: "#hybrid-image",
+            },
           ].map((item, index) => (
             <ListItemButton key={index} component="a" href={item.href}>
               <ListItemText primary={item.text} />
