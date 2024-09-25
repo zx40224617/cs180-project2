@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.imageText {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  max-width: 30vw;
+  word-wrap: break-word;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 5vw;
+  margin-bottom: 30px;
+}
+
+.CameraMan {
+  height: 30vh;
+  width: auto;
+}
+
+.formula {
+  height: 10vh;
+  width: auto;
+}
+
+.fft {
+  height: 20vh;
+  width: auto;
+}
+
+.laplace {
+  height: 15vh;
+  width: auto;
+}
+
+.Ado {
+  height: 25vh;
+  width: auto;
+}
+
+.mask {
+  height: 20vh;
+  width: auto;
+}

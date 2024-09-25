@@ -42,6 +42,10 @@ const Sidebar = () => {
               text: "2.3 Gaussian and Laplacian Stack",
               href: "#glstacks",
             },
+            {
+              text: "2.4 Multiresolution Blending",
+              href: "#blending",
+            },
           ].map((item, index) => (
             <ListItemButton key={index} component="a" href={item.href}>
               <ListItemText primary={item.text} />

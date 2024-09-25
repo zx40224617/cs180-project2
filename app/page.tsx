@@ -7,7 +7,7 @@ import DOGFilter from "./project2_contents/DOGFilter";
 import ImageSharpening from "./project2_contents/ImageSharpening";
 import HybridImage from "./project2_contents/HybridImage";
 import GLStacks from "./project2_contents/GLStacks";
-
+import MultiresolutionBlending from "./project2_contents/MultiresolutionBlending";
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -26,6 +26,8 @@ export default function Home() {
         <HybridImage />
         <Separator color={"grey"} />
         <GLStacks />
+        <Separator color={"grey"} />
+        <MultiresolutionBlending />
       </div>
     </div>
   );
