@@ -1,6 +1,5 @@
 import styles from "../css_modules/Multiresolution.module.css";
 import Image from "next/image";
-import Separator from "../accessories/separator";
 
 export default function MultiresolutionBlending() {
   return (
