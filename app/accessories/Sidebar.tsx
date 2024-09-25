@@ -40,7 +40,7 @@ const Sidebar = () => {
             },
             {
               text: "2.3 Gaussian and Laplacian Stack",
-              href: "#hybrid-image",
+              href: "#glstacks",
             },
           ].map((item, index) => (
             <ListItemButton key={index} component="a" href={item.href}>
