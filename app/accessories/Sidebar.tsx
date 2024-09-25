@@ -30,6 +30,10 @@ const Sidebar = () => {
               text: "1.2 Derivative of Gaussian (DoG) Filter",
               href: "#dog-filter",
             },
+            {
+              text: "2.1 Image Sharpening",
+              href: "#sharpening",
+            },
           ].map((item, index) => (
             <ListItemButton key={index} component="a" href={item.href}>
               <ListItemText primary={item.text} />
