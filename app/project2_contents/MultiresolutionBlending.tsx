@@ -36,8 +36,8 @@ export default function MultiresolutionBlending() {
           Note that unlike the apple and ornage which has the same exact size,
           these 2 images are really different in size where I used the alignment
           code from previous part to get the correct size image. And this
-          blending is using the same mask as above (I didn't use align for the
-          apple and orange):
+          blending is using the same mask as above (I didn&apos;t use align for
+          the apple and orange):
         </p>
         <div className={styles.imageWrapper}>
           <div>
@@ -417,9 +417,9 @@ export default function MultiresolutionBlending() {
         <p className={styles.text}>
           This is really a fun project to me, I spent a lot of time tweaking and
           find the best clicking point to blend 2 faces toegther so that there
-          won't be 2 noses and chins. But I feel really motivated since I can
-          play with the art that I like using code instead of drawing (I'm so
-          bad at art).
+          won&apos;t be 2 noses and chins. But I feel really motivated since I
+          can play with the art that I like using code instead of drawing
+          (I&apos;m so bad at art).
         </p>
       </div>
     </>
