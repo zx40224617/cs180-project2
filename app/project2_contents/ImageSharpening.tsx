@@ -256,8 +256,8 @@ export default function ImageSharpening() {
         </div>
       </div>
       <p className={styles.text}>
-        Let's see what will happen if I unsharp a shrappened image, and sharpe
-        ot again:
+        Let&apos;s see what will happen if I unsharp a shrappened image, and
+        sharpe ot again:
       </p>
       <p className={styles.text}>Original Image:</p>
       <Image
