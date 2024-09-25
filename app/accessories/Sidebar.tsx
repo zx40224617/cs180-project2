@@ -34,6 +34,10 @@ const Sidebar = () => {
               text: "2.1 Image Sharpening",
               href: "#sharpening",
             },
+            {
+              text: "2.2 Hybrid Image",
+              href: "#hybrid-image",
+            },
           ].map((item, index) => (
             <ListItemButton key={index} component="a" href={item.href}>
               <ListItemText primary={item.text} />

@@ -5,6 +5,7 @@ import FiniteDifferenceOperator from "./project2_contents/FiniteDifferenceOperat
 import Separator from "./accessories/separator";
 import DOGFilter from "./project2_contents/DOGFilter";
 import ImageSharpening from "./project2_contents/ImageSharpening";
+import HybridImage from "./project2_contents/HybridImage";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         <DOGFilter />
         <Separator color={"grey"} />
         <ImageSharpening />
+        <Separator color={"grey"} />
+        <HybridImage />
       </div>
     </div>
   );

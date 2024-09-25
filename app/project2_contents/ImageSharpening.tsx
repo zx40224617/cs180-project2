@@ -256,92 +256,43 @@ export default function ImageSharpening() {
         </div>
       </div>
       <p className={styles.text}>
-        Let&apos;s see what will happen if I unsharp a shrappened image, and
-        sharpe ot again:
+        Let&apos;s see what will happen if I blur and sharp a image that is
+        already sharp
       </p>
       <p className={styles.text}>Original Image:</p>
       <Image
-        src="/images/101.jpg a = 2 sharpenned.jpg"
+        src="/images/sharp cat.jpg"
         width={500}
         height={500}
         alt="Cameraman Picture"
-        className={styles.CameraMan}
+        className={styles.cat}
       />
       <div className={styles.imageWrapper}>
         <div>
-          <p className={styles.imageText}>Low Frequency: </p>
+          <p className={styles.imageText}>Blur Image: </p>
           <Image
-            src="/images/101.jpg a = 2 sharpenned.jpg low_freq.jpg"
+            src="/images/blur cat.jpg"
             width={500}
             height={500}
             alt="Cameraman Picture"
-            className={styles.CameraMan}
+            className={styles.cat}
           />
         </div>
         <div>
-          <p className={styles.imageText}>High Frequency: </p>
+          <p className={styles.imageText}>Sharpenned with alpha = 2: </p>
           <Image
-            src="/images/101.jpg a = 2 sharpenned.jpg high_freq.jpg"
+            src="/images/blur cat.jpg a = 2 sharpenned.jpg"
             width={500}
             height={500}
             alt="Cameraman Picture"
-            className={styles.CameraMan}
+            className={styles.cat}
           />
         </div>
       </div>
 
-      <div className={styles.imageWrapper}>
-        <div>
-          <p className={styles.imageText}>sharppened with alpha = 0.1: </p>
-          <Image
-            src="/images/101.jpg a = 2 sharpenned.jpg a = 0.1 sharpenned.jpg"
-            width={500}
-            height={500}
-            alt="Cameraman Picture"
-            className={styles.CameraMan}
-          />
-        </div>
-        <div>
-          <p className={styles.imageText}>sharppened with alpha = 0.5 </p>
-          <Image
-            src="/images/101.jpg a = 2 sharpenned.jpg a = 0.5 sharpenned.jpg"
-            width={500}
-            height={500}
-            alt="Cameraman Picture"
-            className={styles.CameraMan}
-          />
-        </div>
-      </div>
-      <div className={styles.imageWrapper}>
-        <div>
-          <p className={styles.imageText}>sharppened with alpha = 1 </p>
-          <Image
-            src="/images/101.jpg a = 2 sharpenned.jpg a = 1 sharpenned.jpg"
-            width={500}
-            height={500}
-            alt="Cameraman Picture"
-            className={styles.CameraMan}
-          />
-        </div>
-        <div>
-          <p className={styles.imageText}>sharppened with alpha = 2 </p>
-          <Image
-            src="/images/101.jpg a = 2 sharpenned.jpg a = 2 sharpenned.jpg"
-            width={500}
-            height={500}
-            alt="Cameraman Picture"
-            className={styles.CameraMan}
-          />
-        </div>
-      </div>
       <p className={styles.text}>
-        As we can see, the high frequency of the already-sharpenned image is way
-        stronger and clear than the original high frequency. Also, if we try
-        shrappening the already-sharppened image, the structures (edges) will
-        getting more and more clear. But at the same time, the strong structure
-        kind of ruining the original picture. If you look at the shorter
-        buildings in the image, you will find out that the clear edges are
-        ruining the view.
+        As we can see, after blurring, the sharpenning effect becomes very bad.
+        The structure of the cat is still reall blurry even after sharpenning.
       </p>
     </div>
   );
